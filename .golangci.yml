@@ -1,0 +1,35 @@
+run:
+  skip-dirs-use-default: true
+  skip-dirs:
+    - vendor
+
+linters:
+  enable:
+    - deadcode
+    - errcheck
+    - gosimple
+    - govet
+    - staticcheck
+    - structcheck
+    - unused
+    - varcheck
+    - gofmt
+    - golint
+    - goimports
+    - gosimple
+    - goconst
+    - gosec
+    - gocritic
+    - gocyclo
+    - unparam
+    - unconvert
+    - interfacer
+    - megacheck
+    - dupl
+    - nakedret
+    - scopelint
+    - misspell
+    - prealloc
+    - stylecheck
+    - maligned
+    - goprintffuncname
